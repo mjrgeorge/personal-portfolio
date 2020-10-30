@@ -11,6 +11,7 @@ import NotMatch from './components/notMatch/NotMatch';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
 import Resume from './components/resume/Resume';
+import Blogs from './components/blogs/Blogs';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route path="/resume">
           <Resume />
+        </Route>
+        <Route path="/blogs">
+          <Blogs />
         </Route>
         <Route path="*">
           <NotMatch />
