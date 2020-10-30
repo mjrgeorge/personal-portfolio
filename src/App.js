@@ -10,6 +10,7 @@ import Home from './components/home/Home';
 import NotMatch from './components/notMatch/NotMatch';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
+import Resume from './components/resume/Resume';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route path="/projects">
           <Projects />
+        </Route>
+        <Route path="/resume">
+          <Resume />
         </Route>
         <Route path="*">
           <NotMatch />

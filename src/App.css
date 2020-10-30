@@ -14,12 +14,11 @@
 
   .navbar{
     margin: 2% 5% 0 5%;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-.projects{
+.projects, .resume{
   margin: 2% 5% 0 5%;
-
 }  
   .header_wrap,
   .biograpy_wrap,
@@ -55,18 +54,18 @@
     width: 100%;
   }
   
-  h1 {
+  /* h1 {
     font-weight: 500;
     font-size: 4.5rem;
     margin: 3% 0 5%;
-  }
+  } */
   
   .text_highlight {
     color: #fd1ca7;
     font-weight: 700;
   }
   
-  h2 {
+  /* h2 {
     font-size: 3.5rem;
   }
   
@@ -81,21 +80,21 @@
   
   h5 {
     font-size: 1.rem;
-  }
+  } */
   
-  p {
+  /* p {
     font-size: 1.5rem;
     color: #555555;
     text-align: justify;
     margin-top: 5%;
     letter-spacing: .12rem;
     line-height: 1.3em;
-  }
+  } */
   
-  p::first-letter{
+  /* p::first-letter{
     color: orange;
     font-size: 3.5rem;
-  }
+  } */
   
   .link_button {
     text-decoration: none;

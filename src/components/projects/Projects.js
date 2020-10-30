@@ -3,6 +3,7 @@ import NavBar from '../home/navBar/NavBar';
 import work_1 from '../../images/latest-work/work_1.png';
 import work_2 from '../../images/latest-work/work_2.png';
 import work_3 from '../../images/latest-work/work_3.png';
+import Footer from '../home/footer/Footer';
 
 const Projects = () => {
     return (
@@ -74,6 +75,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 };
