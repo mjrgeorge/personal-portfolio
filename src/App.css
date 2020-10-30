@@ -124,6 +124,10 @@
     transition: 0.5s;
     cursor: pointer;
   }
+
+  .work_image img{
+    height: 50vh;
+  }
   
   .experiences_wrap {
     box-shadow: none;
@@ -188,13 +192,13 @@
   }
   
   footer span {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     display: inline-block;
     text-transform: none;
   }
   
   footer .icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: inline-block;
     color: #fd1ca7;
     border-radius: 50%;
@@ -212,12 +216,6 @@
   @media only screen and (max-width:600px){
     .biograpy_wrap {
       flex-direction: column-reverse;
-    }
-    footer span {
-      font-size: 1.3rem;
-    }
-    footer .icon {
-      font-size: 2rem;
     }
     }
   
