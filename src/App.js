@@ -9,6 +9,7 @@ import {
 import Home from './components/home/Home';
 import NotMatch from './components/notMatch/NotMatch';
 import Contact from './components/contact/Contact';
+import Projects from './components/projects/Projects';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/projects">
+          <Projects />
         </Route>
         <Route path="*">
           <NotMatch />

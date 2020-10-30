@@ -16,7 +16,11 @@
     margin: 2% 5% 0 5%;
     font-size: 30px;
 }
-  
+
+.projects{
+  margin: 2% 5% 0 5%;
+
+}  
   .header_wrap,
   .biograpy_wrap,
   .work_wrap,
@@ -38,7 +42,7 @@
     transition: 0.5s;
     cursor: pointer;
   }
-  
+
   .left_side,
   .right_side,
   .work_image {
