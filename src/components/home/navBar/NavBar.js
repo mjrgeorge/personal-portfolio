@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
     return (
         <Navbar className="sticky-top pl-4" bg="white" expand="lg">
-            <Navbar.Brand href="/home"><big><h1 style={{fontVariant: "small-caps"}} className="pl-5 text-muted">Jubayer Rahman</h1></big></Navbar.Brand>
+            <Navbar.Brand href="/home"><big><h1 style={{fontVariant: "small-caps"}} className="pl-3 text-muted">Jubayer Rahman</h1></big></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">

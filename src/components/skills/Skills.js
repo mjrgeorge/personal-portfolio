@@ -15,7 +15,7 @@ import firebase from '../../images/icons/firebase.png';
 
 const Skills = () => {
     return (
-        <div className="container text-center">
+        <div className="text-center">
             <div>
                 <h3>SKILLS</h3>
             </div>
