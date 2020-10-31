@@ -4,8 +4,8 @@ import { Nav, Navbar } from 'react-bootstrap';
 
 const NavBar = () => {
     return (
-        <Navbar className="sticky-top px-5" bg="white" expand="lg">
-            <Navbar.Brand href="/home"><span className="display-4 pl-3">mjrgeorge</span></Navbar.Brand>
+        <Navbar className="sticky-top pl-4" bg="white" expand="lg">
+            <Navbar.Brand href="/home"><big><h1 className="pl-5 text-uppercase">Jubayer Rahman</h1></big></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
