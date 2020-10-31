@@ -1,19 +1,20 @@
 import React from 'react';
 import './NavBar.css';
 import { Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <Navbar className="sticky-top pl-4" bg="white" expand="lg">
-            <Navbar.Brand href="/home"><big><h1 className="pl-5 text-uppercase">Jubayer Rahman</h1></big></Navbar.Brand>
+            <Navbar.Brand href="/home"><big><h1 style={{fontVariant: "small-caps"}} className="pl-5 text-muted">Jubayer Rahman</h1></big></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Link className="pl-4" href="/home">Home</Nav.Link>
-                    <Nav.Link className="pl-4" href="/projects">Projects</Nav.Link>
-                    <Nav.Link className="pl-4" href="/blogs">Blogs</Nav.Link>
-                    <Nav.Link className="pl-4" href="/resume">CV</Nav.Link>
-                    <Nav.Link className="pl-4" href="/contact">Contact Us</Nav.Link>
+                    <Link className="pl-4 text-muted" to="/home">Home</Link>
+                    <Link className="pl-4 text-muted" to="/projects">Projects</Link>
+                    <Link className="pl-4 text-muted" to="/blogs">Blogs</Link>
+                    <Link className="pl-4 text-muted" to="/resume">CV</Link>
+                    <Link className="pl-4 text-muted" to="/contact">Contact</Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

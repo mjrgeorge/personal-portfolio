@@ -13,9 +13,13 @@
   }
 
   .navbar{
-    margin: 2% 5% 0 5%;
+    margin: 0% 5% 0 5%;
     font-size: 25px;
 }
+/* 
+.navbar h1{
+  font-variant: small-caps;
+} */
 
 .projects, .resume, .blogs{
   margin: 2% 5% 0 5%;
@@ -50,7 +54,7 @@
   .work_image {
     flex-grow: 1;
     flex-basis: 300px;
-    padding: 5%;
+    padding: 3%;
   }
    
   .para_text {
