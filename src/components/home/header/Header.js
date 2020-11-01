@@ -22,7 +22,7 @@ const Header = () => {
                     <a className="btn btn-outline-warning font-weight-bold" href="https://drive.google.com/file/d/1kZbqtPlKkN2LJKsJknGVeMgarVHxYBnR/view?usp=sharing" target="_blank"><big>Download Resume</big></a>
                     <Link className="btn btn-outline-warning font-weight-bold ml-3" to="/contact"><big>Hire me</big></Link>
                 </div>
-                <div className="right_side text-center">
+                <div className="right_side bg-transparent text-center">
                     <img className="img-fluid" src={jubayerRahman} alt="Jubayer" />
                 </div>
             </section>

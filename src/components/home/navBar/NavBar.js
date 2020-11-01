@@ -9,7 +9,9 @@ const NavBar = () => {
         <>
             <ParticlesBg type="random" bg={true} />
             <Navbar bg="transparent" expand="lg">
-                <Navbar.Brand href="/home"><big><h1 style={{ fontVariant: "small-caps" }} className="pl-3 text-muted">Jubayer Rahman</h1></big></Navbar.Brand>
+                <Link to="/home">
+                    <Navbar.Brand><big><h1 style={{ fontVariant: "small-caps" }} className="pl-3 text-muted">Jubayer Rahman</h1></big></Navbar.Brand>
+                </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">

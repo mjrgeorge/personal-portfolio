@@ -14,7 +14,7 @@ const cv = () => {
                             <img style={{ height: '120px', width: '100px' }} className="rounded-circle" src={jubayer} alt="jubayerRahman" />
                         </div>
                         <div className="col-md-5 text-center">
-                            <h1>Jubayer Rahman George</h1>
+                            <h1>Jubayer Rahman</h1>
                             <h4>Full Stack Junior Web Developer</h4>
                             <a href="mailto:mjrgeorge@gmail.com">Email: mjrgeorge@gmail.com</a>
                         </div>
