@@ -49,7 +49,13 @@ const cv = () => {
                     <h3 className="text-info mb-4">Projects</h3>
                     <div className="shadow m-3 p-5">
                         <h4>⮚ Creative Agency</h4>
-                        <p className="ml-5">I’ve created a simple full-stack project. It has two portions, the Client panel, and the Admin  panel. Clients can't access the sensitive area of this site. But, the admin can access all areas.</p>
+                        <ul className="ml-5">
+                            <li>MERN project. This is an agency website where users can find many
+                                services and can order any of the services.</li>
+                            <li>Has user authentication. Users can login and see their ordered services.</li>
+                            <li>Users can give reviews about their ordered services.</li>
+                            <li>Admin can manage ordered services. Can add New services.</li>
+                        </ul>
                         <h5 className="ml-3">Here I  used</h5>
                         <h6 className="ml-5">HTML5, CSS3, ES6, React, Bootstrap, MongoDB, ReST API, Node.JS, Firebase, Git, Heroku.</h6>
                         <h5 className="ml-3">You can visit repositories</h5>
@@ -61,7 +67,11 @@ const cv = () => {
                     </div>
                     <div className="shadow m-3 p-5">
                         <h4>⮚ Volunteer Network</h4>
-                        <p className="ml-5">I’ve made it for only the client site project. In this project a client can action his activities and his  activities store in the database.</p>
+                        <ul className="ml-5">
+                            <li>Has user authentication. Users can login and see their ordered services.</li>
+                            <li>Users can give reviews about their ordered services.</li>
+                            <li>Admin can manage ordered services. Can add New services.</li>
+                        </ul>
                         <h5 className="ml-3">Here I  used</h5>
                         <h6 className="ml-5">HTML5, CSS3, ES6, React, Bootstrap, MongoDB, ReST API, Node.JS, Firebase, Git, Heroku.</h6>
                         <h5 className="ml-3">You can visit repositories</h5>
@@ -73,7 +83,11 @@ const cv = () => {
                     </div>
                     <div className="shadow m-3 p-5">
                         <h4>⮚ Red Onion</h4>
-                        <p className="ml-5">I’ve made it for only the client site project.</p>
+                        <ul className="ml-5">
+                            <li>Authenticated users can order foods .</li>
+                            <li>U Automated calculation and functionalities are added for the cart .</li>
+                            <li>Stripe payment method is available for testing purposes only .</li>
+                        </ul>
                         <h5 className="ml-3">Here I  used</h5>
                         <h6 className="ml-5">I’ve made it for only the client site project.</h6>
                         <h5 className="ml-3">You can visit repositories</h5>
