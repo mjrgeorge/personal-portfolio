@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import NavBar from '../home/navBar/NavBar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeOpen, faPhoneAlt, faSearchLocation } from '@fortawesome/free-solid-svg-icons';
+import Footer from '../home/footer/Footer';
 
 export default function Contact() {
 
@@ -19,7 +20,7 @@ export default function Contact() {
     }
 
     return (
-        <>
+        <div className="container">
             <NavBar />
             <div className="row m-4">
                 <div className="col-md-6">
@@ -64,6 +65,7 @@ export default function Contact() {
                     </form>
                 </div>
             </div>
-        </>
+            <Footer/>
+        </div>
     );
 }

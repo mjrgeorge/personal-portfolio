@@ -7,23 +7,13 @@
   body {
     font-family: "Poppins", sans-serif;
   }
-  
-  section {
-    margin: 2% 4%;
-  }
-
   .navbar{
-    margin: 0% 4% 0 4%;
     font-size: 25px;
 }
 
-.projects, .resume, .blogs{
-  margin: 2% 4% 0 4%;
-}  
-
   .header_wrap,
   .work_wrap,
-  .experiences_wrap {
+  .information_wrap {
     display: flex;
     flex-wrap: wrap;
     box-shadow: 10px 10px 40px gray;
@@ -35,7 +25,7 @@
   .header_wrap:hover,
   .review_wrap:hover,
   .work_wrap:hover,
-  .experiences_wrap:hover {
+  .information_wrap:hover {
     box-shadow: none;
     transition: 0.5s;
     cursor: pointer;
@@ -50,14 +40,12 @@
   .work_image {
     flex-grow: 1;
     flex-basis: 300px;
-    padding: 3%;
   }
    
   .para_text {
     font-size: 1.3rem;
     color: #555555;
     text-align: justify;
-    margin-top: 5%;
     letter-spacing: .1rem;
     line-height: 1.3em;
   }
@@ -72,7 +60,7 @@
     box-shadow: 10px 20px 40px gray;
     transition: 0.5s;
     border-radius: 5px;
-    padding: 3%;
+    /* padding: 3%; */
   }
   .work_image:hover {
     box-shadow: none;
@@ -84,47 +72,40 @@
     height: 50vh;
   }
   
-  .experiences_wrap {
+  .information_wrap {
     box-shadow: none;
   }
   
-  .experiences_wrap .left_side {
+  .information_wrap .left_side {
     border-image: linear-gradient(180deg, #f7c5d3, #ec0679);
     border-image-slice: 1;
     border-left: 10px solid;
-    box-shadow: 10px 10px 40px gray;
-    margin-top: 3%;
-    margin-left: 1%;
+    box-shadow: 10px 10px 30px gray;
   }
   
-  .experiences_wrap .left_side:hover {
+  .information_wrap .left_side:hover {
     box-shadow: none;
     transition: 0.5s;
   }
   
-  .experiences_wrap .right_side {
+  .information_wrap .right_side {
     border-image: linear-gradient(180deg, #fcee9e, orange);
     border-image-slice: 1;
     border-left: 10px solid;
-    box-shadow: 10px 10px 40px gray;
-    margin-top: 3%;
-    margin-left: 1%;
+    box-shadow: 10px 10px 30px gray;
   }
   
-  .experiences_wrap .right_side:hover {
+  .information_wrap .right_side:hover {
     box-shadow: none;
-    transition: 0.5s;
     cursor: pointer;
   }
-  
+/*   
   footer {
     text-align: center;
-    padding: 1% 0;
-    margin: 1% 5%;
     background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-position: top;
-  }
+  } */
   
   footer span {
     font-size: 1.2rem;
@@ -137,7 +118,6 @@
     display: inline-block;
     color: #fd1ca7;
     border-radius: 50%;
-    padding: 1%;
     transition: 0.5s;
   }
   

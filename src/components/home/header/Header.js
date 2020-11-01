@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <header>
-            <section className="header_wrap text-capitalize">
+            <section className="header_wrap text-capitalize p-5">
                 <div className="left_side">
                     <h2>Hello I'm</h2>
-                    <h1 style={{ color: "#ff448e" }} className="font-weight-bold display-4 text-uppercase">Jubayer Rahman</h1>
+                    <h1 style={{ color: "#ff448e" }} className="display-4 text-uppercase">Jubayer Rahman</h1>
                     <h1 className="text-warning">
                         <Typical
                             steps={['A Programmer', 2000, 'A Web Developer', 2000, 'A Front End Developer', 2000, 'A MERN Stack Developer', 2000]}

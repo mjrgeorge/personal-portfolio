@@ -6,7 +6,7 @@ import NavBar from './navBar/NavBar';
 
 const Home = () => {
     return (
-        <div>
+        <div className="container">
             <NavBar />
             <Header />
             <Main />

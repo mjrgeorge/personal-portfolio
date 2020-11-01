@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <>
             <ParticlesBg type="random" bg={true} />
-            <Navbar className="sticky-top pl-4" bg="white" expand="lg">
+            <Navbar bg="transparent" expand="lg">
                 <Navbar.Brand href="/home"><big><h1 style={{ fontVariant: "small-caps" }} className="pl-3 text-muted">Jubayer Rahman</h1></big></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

@@ -5,7 +5,7 @@ import NavBar from '../home/navBar/NavBar';
 
 const cv = () => {
     return (
-        <>
+        <div className="container">
             <NavBar />
             <div className="resume">
                 <div className="shadow-lg mb-3 p-5 bg-white">
@@ -103,7 +103,7 @@ const cv = () => {
                 </div>
             </div>
             <Footer />
-        </>
+        </div>
     );
 };
 
