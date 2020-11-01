@@ -1,9 +1,9 @@
 import React from 'react';
-import jubayerRahman from '../../images/jubayerRahman.png';
+import jubayer from '../../images/jubayer.png';
 import Footer from '../home/footer/Footer';
 import NavBar from '../home/navBar/NavBar';
 
-const Resume = () => {
+const cv = () => {
     return (
         <>
             <NavBar />
@@ -11,7 +11,7 @@ const Resume = () => {
                 <div className="shadow-lg mb-3 p-5 bg-white">
                     <div className="row">
                         <div className="col-md-3 text-left">
-                            <img style={{ height: '120px', width: '100px' }} className="rounded-circle" src={jubayerRahman} alt="jubayerRahman" />
+                            <img style={{ height: '120px', width: '100px' }} className="rounded-circle" src={jubayer} alt="jubayerRahman" />
                         </div>
                         <div className="col-md-5 text-center">
                             <h1>Jubayer Rahman George</h1>
@@ -93,4 +93,4 @@ const Resume = () => {
     );
 };
 
-export default Resume;
+export default cv;

@@ -22,27 +22,27 @@ export default function Contact() {
             <NavBar />
             <div className="row m-5">
                 <div className="col-md-6">
-                    <img className="p-5 img-fluid" src={message} alt="message" required/>
+                    <img className="p-5 img-fluid" src={message} alt="message" required />
                 </div>
                 <div className="col-md-6">
                     <form className="contact-form shadow-lg p-5 m-3 bg-white rounded" onSubmit={sendEmail}>
                         <div class="form-group">
-                            <input className="form-control" type="hidden" name="contact_number" required/>
+                            <input className="form-control" type="hidden" name="contact_number" required />
                         </div>
                         <div class="form-group">
                             <label>Name</label>
-                            <input className="form-control" type="text" name="user_name" required/>
+                            <input className="form-control" type="text" name="user_name" required />
                         </div>
                         <div class="form-group">
                             <label>Email</label>
-                            <input className="form-control" type="email" name="user_email" required/>
+                            <input className="form-control" type="email" name="user_email" required />
                         </div>
                         <div class="form-group">
                             <label>Message</label>
-                            <textarea className="form-control" name="message" cols="30" rows="3" required/>
+                            <textarea className="form-control" name="message" cols="30" rows="3" required />
                         </div>
                         <div class="form-group">
-                            <input className="btn btn-info btn-block" type="submit" value="Send" required/>
+                            <input className="btn btn-info btn-block" type="submit" value="Send" required />
                         </div>
                     </form>
                 </div>

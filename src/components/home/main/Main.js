@@ -4,7 +4,6 @@ import work_2 from '../../../images/latest-work/work_2.png';
 import work_3 from '../../../images/latest-work/work_3.png';
 import Skills from '../../skills/Skills';
 
-
 const Main = () => {
     return (
         <main>

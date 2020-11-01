@@ -6,7 +6,7 @@ const Blogs = () => {
     return (
         <>
             <NavBar />
-            <div className="blogs">
+            <div className="blogs" style={{height: "65vh"}}>
                 <h1 className="display-1 text-center">Coming Soon..........</h1>
             </div>
             <Footer/>

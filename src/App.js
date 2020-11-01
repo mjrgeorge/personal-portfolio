@@ -10,7 +10,7 @@ import Home from './components/home/Home';
 import NotMatch from './components/notMatch/NotMatch';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
-import Resume from './components/resume/Resume';
+import Cv from './components/cv/Cv';
 import Blogs from './components/blogs/Blogs';
 
 function App() {
@@ -29,8 +29,8 @@ function App() {
         <Route path="/projects">
           <Projects />
         </Route>
-        <Route path="/resume">
-          <Resume />
+        <Route path="/cv">
+          <Cv />
         </Route>
         <Route path="/blogs">
           <Blogs />
