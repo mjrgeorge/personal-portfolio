@@ -8,8 +8,8 @@ const Header = () => {
         <header>
             <section className="header_wrap text-capitalize p-5">
                 <div className="left_side">
-                    <h2 className="display-4 text-warning">Hello I'm</h2>
-                    <h2 style={{ color: "#ff448e" }} className="display-4 text-uppercase">Jubayer Rahman</h2>
+                    <h2 className="text-warning">Hello I'm</h2>
+                    <h1 style={{ fontVariant: "small-caps", color: "#ff448e" }}>Jubayer Rahman</h1>
                     <h1 className="text-info">
                         <Typical
                             steps={['A Programmer', 2000, 'A Web Developer', 2000, 'A Front End Developer', 2000, 'A MERN Stack Developer', 2000]}
