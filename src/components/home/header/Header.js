@@ -1,5 +1,4 @@
 import React from 'react';
-import './Header.css';
 import jubayerRahman from '../../../images/JubayerRahman.png';
 import Typical from 'react-typical';
 import { Link } from 'react-router-dom';
@@ -9,9 +8,9 @@ const Header = () => {
         <header>
             <section className="header_wrap text-capitalize p-5">
                 <div className="left_side">
-                    <h2>Hello I'm</h2>
-                    <h1 style={{ color: "#ff448e" }} className="display-4 text-uppercase">Jubayer Rahman</h1>
-                    <h1 className="text-warning">
+                    <h2 className="display-4 text-warning">Hello I'm</h2>
+                    <h2 style={{ color: "#ff448e" }} className="display-4 text-uppercase">Jubayer Rahman</h2>
+                    <h1 className="text-info">
                         <Typical
                             steps={['A Programmer', 2000, 'A Web Developer', 2000, 'A Front End Developer', 2000, 'A MERN Stack Developer', 2000]}
                             loop={Infinity}

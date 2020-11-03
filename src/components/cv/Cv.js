@@ -24,9 +24,9 @@ const cv = () => {
                         <br />
                         Rangpur, Bangladesh
                         <div>
-                                    <a className="ml-3" href="tel:+8801841503316">Phone</a>
-                                    <a className="ml-3" href="https://www.linkedin.com/in/jubayer-rahman-3776b21b1/">LinkedIn</a>
-                                    <a className="ml-3" href="https://github.com/mjrgeorge">Github</a>
+                                    <a className="ml-3" href="tel:+8801841503316" target="_blank">Phone</a>
+                                    <a className="ml-3" href="https://www.linkedin.com/in/md-jubayer-rahman-george-3776b21b1/" target="_blank">LinkedIn</a>
+                                    <a className="ml-3" href="https://github.com/mjrgeorge" target="_blank">Github</a>
                                 </div>
                             </address>
                         </div>
@@ -60,9 +60,9 @@ const cv = () => {
                         <h6 className="ml-5">HTML5, CSS3, ES6, React, Bootstrap, MongoDB, ReST API, Node.JS, Firebase, Git, Heroku.</h6>
                         <h5 className="ml-3">You can visit repositories</h5>
                         <div>
-                            <a className="bg-white m-1 p-1  rounded" href="https://creative-agency-client.web.app/">Live website link</a>
-                            <a className="bg-white m-1 p-1  rounded" href="https://github.com/mjrgeorge/creative-agency-client">Client side link</a>
-                            <a className="bg-white m-1 p-1  rounded" href="https://github.com/mjrgeorge/creative-agency-server">Server side link</a>
+                            <a className="bg-white m-1 p-1  rounded" href="https://creative-agency-client.web.app/" target="_blank">Live website link</a>
+                            <a className="bg-white m-1 p-1  rounded" href="https://github.com/mjrgeorge/creative-agency-client" target="_blank">Client side link</a>
+                            <a className="bg-white m-1 p-1  rounded" href="https://github.com/mjrgeorge/creative-agency-server" target="_blank">Server side link</a>
                         </div>
                     </div>
                     <div className="shadow m-3 p-5">
@@ -76,9 +76,9 @@ const cv = () => {
                         <h6 className="ml-5">HTML5, CSS3, ES6, React, Bootstrap, MongoDB, ReST API, Node.JS, Firebase, Git, Heroku.</h6>
                         <h5 className="ml-3">You can visit repositories</h5>
                         <div>
-                            <a className="bg-white m-1 p-1  rounded" href="https://volunteer-network-22cfc.web.app/">Live website link</a>
-                            <a className="bg-white m-1 p-1  rounded" href="https://github.com/mjrgeorge/volunteer-network-client">Client side link</a>
-                            <a className="bg-white m-1 p-1  rounded" href="https://github.com/mjrgeorge/volunteer-network-server">Server side link</a>
+                            <a className="bg-white m-1 p-1  rounded" href="https://volunteer-network-22cfc.web.app/" target="_blank">Live website link</a>
+                            <a className="bg-white m-1 p-1  rounded" href="https://github.com/mjrgeorge/volunteer-network-client" target="_blank">Client side link</a>
+                            <a className="bg-white m-1 p-1  rounded" href="https://github.com/mjrgeorge/volunteer-network-server" target="_blank">Server side link</a>
                         </div>
                     </div>
                     <div className="shadow m-3 p-5">
@@ -92,8 +92,8 @@ const cv = () => {
                         <h6 className="ml-5">I’ve made it for only the client site project.</h6>
                         <h5 className="ml-3">You can visit repositories</h5>
                         <div>
-                            <a className="bg-white m-1 p-1  rounded" href="https://red-onion-restaurant-2611b.web.app/">Live website link</a>
-                            <a className="bg-white m-1 p-1  rounded" href=" https://github.com/mjrgeorge/red-onion-restaurant">Client side link</a>
+                            <a className="bg-white m-1 p-1  rounded" href="https://red-onion-restaurant-2611b.web.app/" target="_blank">Live website link</a>
+                            <a className="bg-white m-1 p-1  rounded" href=" https://github.com/mjrgeorge/red-onion-restaurant" target="_blank">Client side link</a>
                         </div>
                     </div>
                 </div>
