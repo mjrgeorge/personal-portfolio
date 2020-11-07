@@ -31,9 +31,9 @@ const Projects = () => {
                             <li>Backend: MongoDB, ReST API, Node.JS, Firebase, Git, Heroku.</li>
                         </ul>
                         <h4>You can visit repositories</h4>
-                        <a className="btn btn-outline-info font-weight-bold mr-1" href="https://creative-agency-client.web.app/" target="_blank">Live website</a>
-                        <a className="btn btn-outline-info font-weight-bold mr-1" href="https://github.com/mjrgeorge/creative-agency-client" target="_blank">Client side</a>
-                        <a className="btn btn-outline-info font-weight-bold mr-1" href="https://github.com/mjrgeorge/creative-agency-server" target="_blank">Server side</a>
+                        <a className="btn btn-outline-info font-weight-bold mr-1 mt-1" href="https://creative-agency-client.web.app/" target="_blank">Live website</a>
+                        <a className="btn btn-outline-info font-weight-bold mr-1 mt-1" href="https://github.com/mjrgeorge/creative-agency-client" target="_blank">Client side</a>
+                        <a className="btn btn-outline-info font-weight-bold mr-1 mt-1" href="https://github.com/mjrgeorge/creative-agency-server" target="_blank">Server side</a>
                     </div>
                 </div>
                 <div className="row mb-2 shadow-lg p-3">
@@ -55,9 +55,9 @@ const Projects = () => {
                             <li>Backend: MongoDB, ReST API, Node.JS, Firebase, Git, Heroku.</li>
                         </ul>
                         <h4>You can visit repositories</h4>
-                        <a className="btn btn-outline-info font-weight-bold mr-1" href="https://red-onion-restaurant-2611b.web.app" target="_blank">Live website</a>
-                        <a className="btn btn-outline-info font-weight-bold mr-1" href="https://github.com/mjrgeorge/volunteer-network-client" target="_blank">Client side</a>
-                        <a className="btn btn-outline-info font-weight-bold mr-1" href="https://github.com/mjrgeorge/volunteer-network-server" target="_blank">Server side</a>
+                        <a className="btn btn-outline-info font-weight-bold mr-1 mt-1" href="https://volunteer-network-22cfc.web.app/" target="_blank">Live website</a>
+                        <a className="btn btn-outline-info font-weight-bold mr-1 mt-1" href="https://github.com/mjrgeorge/volunteer-network-client" target="_blank">Client side</a>
+                        <a className="btn btn-outline-info font-weight-bold mr-1 mt-1" href="https://github.com/mjrgeorge/volunteer-network-server" target="_blank">Server side</a>
                     </div>
                 </div>
                 <div className="row mb-2 shadow-lg p-3">
@@ -78,8 +78,8 @@ const Projects = () => {
                             <li>Frontend: HTML5, CSS3, ES6, React, Bootstrap, Firebase, Git, Heroku.</li>
                         </ul>
                         <h4>You can visit repositories</h4>
-                        <a className="btn btn-outline-info font-weight-bold mr-1" href="https://red-onion-restaurant-2611b.web.app/" target="_blank">Live website</a>
-                        <a className="btn btn-outline-info font-weight-bold mr-1" href=" https://github.com/mjrgeorge/red-onion-restaurant" target="_blank">Client side</a>
+                        <a className="btn btn-outline-info font-weight-bold mr-1 mt-1" href="https://red-onion-restaurant-2611b.web.app/" target="_blank">Live website</a>
+                        <a className="btn btn-outline-info font-weight-bold mr-1 mt-1" href=" https://github.com/mjrgeorge/red-onion-restaurant" target="_blank">Client side</a>
                     </div>
                 </div>
             </div>

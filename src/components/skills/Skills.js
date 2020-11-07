@@ -12,6 +12,11 @@ import material from '../../images/icons/meta-ui.png';
 import heroku from '../../images/icons/heroku.png';
 import netlify from '../../images/icons/netlify.png';
 import firebase from '../../images/icons/firebase.png';
+import chrome from '../../images/icons/cdt.png';
+import github from '../../images/icons/github.png';
+import vsCode from '../../images/icons/vs-code.png';
+import redux from '../../images/icons/redux.png';
+import npm from '../../images/icons/npm.png';
 
 const Skills = () => {
     return (
@@ -49,6 +54,10 @@ const Skills = () => {
                     <figcaption style={{ marginTop: '4px' }}>Sass</figcaption>
                 </div>
                 <div>
+                    <img className="mx-3 my-2" style={{ width: '50px' }} src={redux} alt="" />
+                    <figcaption style={{ marginTop: '10px' }}>Redux</figcaption>
+                </div>
+                <div>
                     <img className="mx-3 my-2" style={{ width: '43px' }} src={node} alt="" />
                     <figcaption style={{ marginTop: '13px' }}>Node.js</figcaption>
                 </div>
@@ -71,6 +80,22 @@ const Skills = () => {
                 <div>
                     <img className="mx-3 my-2" style={{ width: '50px' }} src={heroku} alt="" />
                     <figcaption style={{ marginTop: '10px' }}>Heroku</figcaption>
+                </div>
+                <div>
+                    <img className="mx-3 my-2" style={{ width: '50px' }} src={npm} alt="" />
+                    <figcaption style={{ marginTop: '10px' }}>npm</figcaption>
+                </div>
+                <div>
+                    <img className="mx-3 my-2" style={{ width: '50px' }} src={chrome} alt="" />
+                    <figcaption style={{ marginTop: '10px' }}>CDT</figcaption>
+                </div>
+                <div>
+                    <img className="mx-3 my-2 bg-dark rounded" style={{ width: '50px' }} src={github} alt="" />
+                    <figcaption style={{ marginTop: '10px' }}>Github</figcaption>
+                </div>
+                <div>
+                    <img className="mx-3 my-2" style={{ width: '50px' }} src={vsCode} alt="" />
+                    <figcaption style={{ marginTop: '10px' }}>VS Code</figcaption>
                 </div>
             </div>
         </div>

@@ -18,8 +18,8 @@ const Header = () => {
                         />
                     </h1>
                     <p className="para_text">I am a passionate Web Developer. I love to code modern and responsive layouts for web application. My core skill is based on JavaScript and I love to do most things using JavaScript.</p>
-                    <a className="btn btn-outline-warning font-weight-bold" href="https://drive.google.com/file/d/1kZbqtPlKkN2LJKsJknGVeMgarVHxYBnR/view?usp=sharing" target="_blank"><big>Download Resume</big></a>
-                    <Link className="btn btn-outline-warning font-weight-bold ml-3" to="/contact"><big>Hire me</big></Link>
+                    <a className="btn btn-outline-warning font-weight-bold mt-1" href="https://drive.google.com/file/d/1kZbqtPlKkN2LJKsJknGVeMgarVHxYBnR/view?usp=sharing" target="_blank"><big>Download Resume</big></a>
+                    <Link className="btn btn-outline-warning font-weight-bold ml-3 mt-1" to="/contact"><big>Hire me</big></Link>
                 </div>
                 <div className="right_side bg-transparent text-center">
                     <img className="img-fluid" src={jubayerRahman} alt="Jubayer" />

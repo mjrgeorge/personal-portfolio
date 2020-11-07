@@ -24,7 +24,7 @@ export default function Contact() {
             <NavBar />
             <div className="row m-4">
                 <div className="col-md-6">
-                    <div className="text-center text-danger font-weight-bold h5 contact-form shadow-lg m-3 bg-white rounded">
+                    <div className="text-center text-danger font-weight-bold h6 contact-form shadow-lg m-3 bg-white rounded">
                         <div className="shadow p-4">
                             <big><p><FontAwesomeIcon icon={faPhoneAlt} /></p></big>
                             <p>Call Me On</p>
