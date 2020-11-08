@@ -2,6 +2,8 @@ import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import ParticlesBg from 'particles-bg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => {
     return (
@@ -9,7 +11,10 @@ const NavBar = () => {
             <ParticlesBg type="random" bg={true} />
             <Navbar bg="transparent" expand="lg">
                 <Link to="/home">
-                    <Navbar.Brand><big><h1 style={{ fontVariant: "small-caps" }} className="pl-3 text-danger">Jubayer Rahman</h1></big></Navbar.Brand>
+                    <Navbar.Brand><big><h1 style={{ fontVariant: "small-caps" }} className="pl-3 text-danger">
+                        <FontAwesomeIcon className="text-info" icon={faCode} />
+                        Jubayer Rahman
+                        </h1></big></Navbar.Brand>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
