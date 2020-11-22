@@ -32,10 +32,10 @@ const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/home">Home</Link>
-                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/projects">Projects</Link>
-                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/blogs">Blogs</Link>
-                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/cv">CV</Link>
                         <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/about">About</Link>
+                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/projects">Projects</Link>
+                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/resume">Resume</Link>
+                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/blogs">Blogs</Link>
                         <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/contact">Contact</Link>
                     </Nav>
                 </Navbar.Collapse>

@@ -1,12 +1,9 @@
 import React from 'react';
 import jubayer from '../../images/jubayer.png';
-import Footer from '../home/footer/Footer';
-import NavBar from '../home/navBar/NavBar';
 
-const cv = () => {
+const Resume = () => {
     return (
         <div className="container">
-            <NavBar />
             <div className="resume">
                 <div className="shadow-lg mb-3 p-5 bg-white">
                     <div className="row">
@@ -15,7 +12,7 @@ const cv = () => {
                         </div>
                         <div className="col-md-5 text-center">
                             <h1>Jubayer Rahman</h1>
-                            <h4>Full Stack Junior Web Developer</h4>
+                            <h4>MERN Stack Junior Web Developer</h4>
                             <a href="mailto:mjrgeorge@gmail.com">Email: mjrgeorge@gmail.com</a>
                         </div>
                         <div className="col-md-4 text-right">
@@ -102,9 +99,8 @@ const cv = () => {
                     <p className="ml-3">Bengali and English</p>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 };
 
-export default cv;
+export default Resume;

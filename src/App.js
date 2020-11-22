@@ -10,9 +10,9 @@ import Home from './components/home/Home';
 import NotMatch from './components/notMatch/NotMatch';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
-import Cv from './components/cv/Cv';
+import Cv from './components/resume/Resume';
 import Blogs from './components/blogs/Blogs';
-import About from './components/About/About';
+import About from './components/about/About';
 import NavBar from './components/home/navBar/NavBar';
 import Footer from './components/home/footer/Footer';
 
@@ -33,7 +33,7 @@ function App() {
         <Route path="/projects">
           <Projects />
         </Route>
-        <Route path="/cv">
+        <Route path="/resume">
           <Cv />
         </Route>
         <Route path="/blogs">
