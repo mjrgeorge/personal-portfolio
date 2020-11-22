@@ -6,12 +6,24 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => {
+    // "color"
+    // "ball"
+    // "lines"
+    // "thick"
+    // "circle"
+    // "cobweb"
+    // "polygon"
+    // "square"
+    // "tadpole"
+    // "fountain"
+    // "random"
+    // "custom"
     return (
-        <>
-            <ParticlesBg type="random" bg={true} />
+        <div className="container">
+            <ParticlesBg type="tadpole" bg={true} />
             <Navbar bg="transparent" expand="lg">
-                <Link to="/home">
-                    <Navbar.Brand><h2 style={{ fontVariant: "small-caps" }} className="text-danger font-weight-bolder mt-4">
+                <Link to="/">
+                    <Navbar.Brand><h2 style={{ fontVariant: "small-caps" }} className="text-info font-weight-bolder mt-4">
                         <FontAwesomeIcon className="text-info" icon={faCode} />
                         Jubayer Rahman
                         </h2></Navbar.Brand>
@@ -19,16 +31,16 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Link className="h4 text-danger font-weight-bold ml-4" to="/home">Home</Link>
-                        <Link className="h4 text-danger font-weight-bold ml-4" to="/projects">Projects</Link>
-                        <Link className="h4 text-danger font-weight-bold ml-4" to="/blogs">Blogs</Link>
-                        <Link className="h4 text-danger font-weight-bold ml-4" to="/cv">CV</Link>
-                        <Link className="h4 text-danger font-weight-bold ml-4" to="/about">About</Link>
-                        <Link className="h4 text-danger font-weight-bold ml-4" to="/contact">Contact</Link>
+                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/home">Home</Link>
+                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/projects">Projects</Link>
+                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/blogs">Blogs</Link>
+                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/cv">CV</Link>
+                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/about">About</Link>
+                        <Link className="h4 text-info font-weight-bold ml-4 text-decoration-none" to="/contact">Contact</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </>
+        </div>
     );
 };
 

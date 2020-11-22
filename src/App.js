@@ -13,10 +13,13 @@ import Projects from './components/projects/Projects';
 import Cv from './components/cv/Cv';
 import Blogs from './components/blogs/Blogs';
 import Information from './components/information/Information';
+import NavBar from './components/home/navBar/NavBar';
+import Footer from './components/home/footer/Footer';
 
 function App() {
   return (
     <Router>
+      <NavBar/>
       <Switch>
         <Route path="/home">
           <Home />
@@ -43,6 +46,7 @@ function App() {
           <NotMatch />
         </Route>
       </Switch>
+      <Footer/>
     </Router>
   );
 }
