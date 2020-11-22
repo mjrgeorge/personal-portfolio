@@ -8,6 +8,7 @@ import Information from '../../information/Information';
 const Main = () => {
     return (
         <main>
+            <Information />
             <section>
                 <h2 className="text-center my-4">My Latest Work</h2>
                 <Link to="/projects">
@@ -24,7 +25,6 @@ const Main = () => {
                     </article>
                 </Link>
             </section>
-            <Information/>
         </main>
     );
 };
