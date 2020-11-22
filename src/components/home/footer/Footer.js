@@ -8,13 +8,12 @@ const Footer = () => {
     const date = new Date();
     const year = date.getFullYear();
     return (
-        <footer className="my-5 bg-transparent text-center">
-            <a className="icon mr-3" href="https://www.linkedin.com/in/md-jubayer-rahman-george-3776b21b1/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-            <a className="icon mr-3" href="mailto:mjrgeorge@gmail.com"><FontAwesomeIcon icon={faEnvelopeOpen} /></a>
-            <a className="icon mr-3" href="https://twitter.com/mjrgeorge" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
-            <a className="icon" href="https://github.com/mjrgeorge" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
-            <br />
-            <span>Copyright © {year} mjrgeorge.</span>
+        <footer className="bg-transparent text-center">
+            <a className="h4 m-2 text-info" href="https://www.linkedin.com/in/md-jubayer-rahman-george-3776b21b1/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+            <a className="h4 m-2 text-info" href="mailto:mjrgeorge@gmail.com"><FontAwesomeIcon icon={faEnvelopeOpen} /></a>
+            <a className="h4 m-2 text-info" href="https://twitter.com/mjrgeorge" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a className="h4 m-2 text-info" href="https://github.com/mjrgeorge" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+            <h5 className="text-muted m-2">Copyright © {year} mjrgeorge.</h5>
         </footer>
     );
 };

@@ -4,12 +4,29 @@ import work_1 from '../../images/latest-work/work_1.png';
 import work_2 from '../../images/latest-work/work_2.png';
 import work_3 from '../../images/latest-work/work_3.png';
 import Footer from '../home/footer/Footer';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
         <div className="container">
             <NavBar />
-            <div className="projects font-weight-bold bg-white">
+            <section>
+                <h2 className="text-center my-4">My Latest Work</h2>
+                <Link to="/projects">
+                    <article className="work_wrap">
+                        <div className="work_image">
+                            <img className="w-100" src={work_1} alt="work1" />
+                        </div>
+                        <div className="work_image">
+                            <img className="w-100" src={work_2} alt="work2" />
+                        </div>
+                        <div className="work_image">
+                            <img className="w-100" src={work_3} alt="work3" />
+                        </div>
+                    </article>
+                </Link>
+            </section>
+            <div className="projects font-weight-bold bg-white mt-5">
                 <div className="row mb-2 shadow-lg p-3">
                     <div className="col-md-3 d-flex justify-content-center align-items-center">
                         <img className="img-fluid" src={work_1} alt="project" />

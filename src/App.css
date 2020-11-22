@@ -7,19 +7,17 @@
   body {
     font-family: "Poppins", sans-serif;
   }
-  .navbar{
-    font-size: 25px;
-}
 
-  .header_wrap,
+  /* .navbar{
+    font-size: 25px;
+} */
+
+  /* .header_wrap,
   .work_wrap,
   .information_wrap {
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 10px 10px 40px gray;
-    background-image: url(images/background.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: transparent;
   }
   
   .header_wrap:hover,
@@ -29,38 +27,38 @@
     box-shadow: none;
     transition: 0.5s;
     cursor: pointer;
-  }
+  } */
 
-  .header_wrap img{
+  /* .header_wrap img{
     width: 62%;
-  }
+  } */
 
-  .left_side,
+  /* .left_side,
   .right_side,
   .work_image {
     flex-grow: 1;
     flex-basis: 300px;
-  }
+    background-color: transparent;
+  } */
    
-  .para_text {
+  /* .para_text {
     font-size: 1.3rem;
     color: #555555;
     text-align: justify;
     letter-spacing: .1rem;
     line-height: 1.3em;
-  }
+  } */
   
-  .para_text::first-letter{
+  /* .para_text::first-letter{
     color: #ff448e;
     font-size: 2.5rem;
     font-weight: 500;
-  }
+  } */
   
-  .work_image {
+  /* .work_image {
     box-shadow: 10px 20px 40px gray;
     transition: 0.5s;
     border-radius: 5px;
-    /* padding: 3%; */
   }
   .work_image:hover {
     box-shadow: none;
@@ -70,8 +68,8 @@
 
   .work_image img{
     height: 50vh;
-  }
-  
+  } */
+/*   
   .information_wrap {
     box-shadow: none;
   }
@@ -98,9 +96,9 @@
   .information_wrap .right_side:hover {
     box-shadow: none;
     cursor: pointer;
-  }
+  } */
   
-  footer span {
+  /* footer span {
     font-size: 1.2rem;
     display: inline-block;
     text-transform: none;
@@ -119,10 +117,10 @@
     color: orange;
     transition: 0.5s;
     transform: scale(0.7);
-  }
-    
+  } */
+/*     
   @media only screen and (max-width:600px){
     .biography_wrap {
       flex-direction: column-reverse;
     }
-    }
+    } */

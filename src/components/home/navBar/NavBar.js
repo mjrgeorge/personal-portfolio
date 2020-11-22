@@ -11,19 +11,20 @@ const NavBar = () => {
             <ParticlesBg type="random" bg={true} />
             <Navbar bg="transparent" expand="lg">
                 <Link to="/home">
-                    <Navbar.Brand><big><h1 style={{ fontVariant: "small-caps" }} className="pl-3 text-danger">
+                    <Navbar.Brand><h2 style={{ fontVariant: "small-caps" }} className="text-danger font-weight-bolder mt-4">
                         <FontAwesomeIcon className="text-info" icon={faCode} />
                         Jubayer Rahman
-                        </h1></big></Navbar.Brand>
+                        </h2></Navbar.Brand>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Link className="pl-4 text-danger font-weight-bold" to="/home">Home</Link>
-                        <Link className="pl-4 text-danger font-weight-bold" to="/projects">Projects</Link>
-                        <Link className="pl-4 text-danger font-weight-bold" to="/blogs">Blogs</Link>
-                        <Link className="pl-4 text-danger font-weight-bold" to="/cv">CV</Link>
-                        <Link className="pl-4 text-danger font-weight-bold" to="/contact">Contact</Link>
+                        <Link className="h4 text-danger font-weight-bold ml-4" to="/home">Home</Link>
+                        <Link className="h4 text-danger font-weight-bold ml-4" to="/projects">Projects</Link>
+                        <Link className="h4 text-danger font-weight-bold ml-4" to="/blogs">Blogs</Link>
+                        <Link className="h4 text-danger font-weight-bold ml-4" to="/cv">CV</Link>
+                        <Link className="h4 text-danger font-weight-bold ml-4" to="/about">About</Link>
+                        <Link className="h4 text-danger font-weight-bold ml-4" to="/contact">Contact</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
