@@ -21,9 +21,6 @@ import npm from '../../images/icons/npm.png';
 const Skills = () => {
     return (
         <div className="text-center">
-            <div>
-                <h3>SKILLS</h3>
-            </div>
             <div className="row d-flex justify-content-center align-items-center">
                 <div>
                     <img className="mx-3 my-2" style={{ width: '50px' }} src={html} alt="" />

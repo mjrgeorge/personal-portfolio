@@ -2,7 +2,6 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeOpen, faPhoneAlt, faSearchLocation } from '@fortawesome/free-solid-svg-icons';
-import Footer from '../home/footer/Footer';
 
 export default function Contact() {
 
