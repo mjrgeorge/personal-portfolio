@@ -12,12 +12,14 @@ const Portfolio = () => {
                 <p className="text-muted h5 text-center">Some of my project work</p>
             </div>
             <div className="my-5">
-                <div class="card-deck">
-                    <div class="card zoom p-2 shadow">
-                        <img src={project2} class="card-img-top" alt="work" />
-                        <div class="card-body">
-                            <h5 class="card-title">Creative Agency</h5>
+                <div className="card-deck">
+                    <div className="card zoom p-2 shadow">
+                        <img src={project1} className="card-img-top" alt="work" />
+                        <div className="card-body">
+                            <h5 className="card-title">Apartment Hunt</h5>
                             <div className="d-flex flex-wrap">
+                                <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
+                                <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#Node</span>
@@ -25,16 +27,18 @@ const Portfolio = () => {
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#Mongodb</span>
                             </div>
                         </div>
-                        <div class="card-footer d-flex justify-content-between">
-                            <a href="https://creative-agency-client.web.app/" class="card-link">Live</a>
-                            <a href="https://github.com/mjrgeorge/creative-agency-client" class="card-link">Github</a>
+                        <div className="card-footer d-flex justify-content-between">
+                            <a href="https://apartment-hunt-8e374.web.app/" className="card-link">Live</a>
+                            <a href="https://github.com/mjrgeorge/apartment-hunt" className="card-link">Github</a>
                         </div>
                     </div>
-                    <div class="card zoom p-2 shadow">
-                        <img src={project1} class="card-img-top" alt="work" />
-                        <div class="card-body">
-                            <h5 class="card-title">Apartment Hunt</h5>
+                    <div className="card zoom p-2 shadow">
+                        <img src={project2} className="card-img-top" alt="work" />
+                        <div className="card-body">
+                            <h5 className="card-title">Creative Agency</h5>
                             <div className="d-flex flex-wrap">
+                                <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
+                                <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#Node</span>
@@ -42,16 +46,18 @@ const Portfolio = () => {
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#Mongodb</span>
                             </div>
                         </div>
-                        <div class="card-footer d-flex justify-content-between">
-                            <a href="https://apartment-hunt-8e374.web.app/" class="card-link">Live</a>
-                            <a href="https://github.com/mjrgeorge/apartment-hunt" class="card-link">Github</a>
+                        <div className="card-footer d-flex justify-content-between">
+                            <a href="https://creative-agency-client.web.app/" className="card-link">Live</a>
+                            <a href="https://github.com/mjrgeorge/creative-agency-client" className="card-link">Github</a>
                         </div>
                     </div>
-                    <div class="card zoom p-2 shadow">
-                        <img src={project3} class="card-img-top" alt="work" />
-                        <div class="card-body">
-                            <h5 class="card-title">Volunteer Network</h5>
+                    <div className="card zoom p-2 shadow">
+                        <img src={project3} className="card-img-top" alt="work" />
+                        <div className="card-body">
+                            <h5 className="card-title">Volunteer Network</h5>
                             <div className="d-flex flex-wrap">
+                                <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
+                                <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#Node</span>
@@ -59,26 +65,25 @@ const Portfolio = () => {
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#Mongodb</span>
                             </div>
                         </div>
-                        <div class="card-footer d-flex justify-content-between">
-                            <a href="https://volunteer-network-22cfc.web.app/" class="card-link">Live</a>
-                            <a href="https://github.com/mjrgeorge/volunteer-network-client" class="card-link">Github</a>
+                        <div className="card-footer d-flex justify-content-between">
+                            <a href="https://volunteer-network-22cfc.web.app/" className="card-link">Live</a>
+                            <a href="https://github.com/mjrgeorge/volunteer-network-client" className="card-link">Github</a>
                         </div>
                     </div>
-                    <div class="card zoom p-2 shadow">
-                        <img src={project4} class="card-img-top" alt="work" />
-                        <div class="card-body">
-                            <h5 class="card-title">Red Onion restaurant</h5>
+                    <div className="card zoom p-2 shadow">
+                        <img src={project4} className="card-img-top" alt="work" />
+                        <div className="card-body">
+                            <h5 className="card-title">Red Onion restaurant</h5>
                             <div className="d-flex flex-wrap">
+                                <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
+                                <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
                                 <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
-                                <span className="bg-dark px-2 m-2 text-white rounded-pill">#Node</span>
-                                <span className="bg-dark px-2 m-2 text-white rounded-pill">#Express</span>
-                                <span className="bg-dark px-2 m-2 text-white rounded-pill">#Mongodb</span>
                             </div>
                         </div>
-                        <div class="card-footer d-flex justify-content-between">
-                            <a href="https://red-onion-restaurant-2611b.web.app/" class="card-link">Live</a>
-                            <a href="https://github.com/mjrgeorge/red-onion-restaurant" class="card-link">Github</a>
+                        <div className="card-footer d-flex justify-content-between">
+                            <a href="https://red-onion-restaurant-2611b.web.app/" className="card-link">Live</a>
+                            <a href="https://github.com/mjrgeorge/red-onion-restaurant" className="card-link">Github</a>
                         </div>
                     </div>
                 </div>
