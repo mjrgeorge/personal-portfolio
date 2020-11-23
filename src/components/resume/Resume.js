@@ -4,7 +4,6 @@ import jubayer from '../../images/jubayer.png';
 const Resume = () => {
     return (
         <div className="container">
-            <div className="resume">
                 <div className="shadow-lg px-5 py-3 my-3">
                     <div className="row">
                         <div className="col-md-3 text-left">
@@ -100,7 +99,6 @@ const Resume = () => {
                     <h3 className="text-info">Languages</h3>
                     <p className="text-muted pl-4">Bengali and English</p>
                 </div>
-            </div>
         </div>
     );
 };
