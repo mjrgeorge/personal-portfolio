@@ -12,3 +12,6 @@ A responsive My Personal Portfolio web application
 - Netlify Hosting
 - Bootstrap
 - FontAwesome
+
+
+---
