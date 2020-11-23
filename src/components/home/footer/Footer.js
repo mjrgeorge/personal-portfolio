@@ -13,7 +13,7 @@ const Footer = () => {
             <a className="h4 m-2 text-info" href="mailto:mjrgeorge@gmail.com"><FontAwesomeIcon icon={faEnvelopeOpen} /></a>
             <a className="h4 m-2 text-info" href="https://twitter.com/mjrgeorge" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
             <a className="h4 m-2 text-info" href="https://github.com/mjrgeorge" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
-            <h5 className="text-muted m-2">Copyright © {year} mjrgeorge.</h5>
+            <h5 className="text-dark m-2">Copyright © {year} mjrgeorge.</h5>
         </footer>
     );
 };

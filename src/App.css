@@ -8,119 +8,14 @@
     font-family: "Poppins", sans-serif;
   }
 
-  /* .navbar{
-    font-size: 25px;
-} */
-
-  /* .header_wrap,
-  .work_wrap,
-  .information_wrap {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: transparent;
+  .zoom {
+    border: none !important;
+  }
+  .zoom img{
+    height: 300px;
+    transition:.5s;
   }
   
-  .header_wrap:hover,
-  .review_wrap:hover,
-  .work_wrap:hover,
-  .information_wrap:hover {
-    box-shadow: none;
-    transition: 0.5s;
-    cursor: pointer;
-  } */
-
-  /* .header_wrap img{
-    width: 62%;
-  } */
-
-  /* .left_side,
-  .right_side,
-  .work_image {
-    flex-grow: 1;
-    flex-basis: 300px;
-    background-color: transparent;
-  } */
-   
-  /* .para_text {
-    font-size: 1.3rem;
-    color: #555555;
-    text-align: justify;
-    letter-spacing: .1rem;
-    line-height: 1.3em;
-  } */
-  
-  /* .para_text::first-letter{
-    color: #ff448e;
-    font-size: 2.5rem;
-    font-weight: 500;
-  } */
-  
-  /* .work_image {
-    box-shadow: 10px 20px 40px gray;
-    transition: 0.5s;
-    border-radius: 5px;
+  .zoom:hover img{
+    transform: scale(1.1);
   }
-  .work_image:hover {
-    box-shadow: none;
-    transition: 0.5s;
-    cursor: pointer;
-  }
-
-  .work_image img{
-    height: 50vh;
-  } */
-/*   
-  .information_wrap {
-    box-shadow: none;
-  }
-  
-  .information_wrap .left_side {
-    border-image: linear-gradient(180deg, #f7c5d3, #ec0679);
-    border-image-slice: 1;
-    border-left: 10px solid;
-    box-shadow: 10px 10px 30px gray;
-  }
-  
-  .information_wrap .left_side:hover {
-    box-shadow: none;
-    transition: 0.5s;
-  }
-  
-  .information_wrap .right_side {
-    border-image: linear-gradient(180deg, #fcee9e, orange);
-    border-image-slice: 1;
-    border-left: 10px solid;
-    box-shadow: 10px 10px 30px gray;
-  }
-  
-  .information_wrap .right_side:hover {
-    box-shadow: none;
-    cursor: pointer;
-  } */
-  
-  /* footer span {
-    font-size: 1.2rem;
-    display: inline-block;
-    text-transform: none;
-  }
-  
-  footer .icon {
-    font-size: 1.5rem;
-    display: inline-block;
-    color: #fd1ca7;
-    border-radius: 50%;
-    transition: 0.5s;
-  }
-  
-  footer .icon:hover {
-    cursor: pointer;
-    color: orange;
-    transition: 0.5s;
-    transform: scale(0.7);
-  } */
-/*     
-  @media only screen and (max-width:600px){
-    .biography_wrap {
-      flex-direction: column-reverse;
-    }
-    } */
