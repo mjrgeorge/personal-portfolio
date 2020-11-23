@@ -11,6 +11,7 @@ export default function Contact() {
         emailjs.sendForm('gmail', 'template_pdv5r1m', e.target, 'user_gFp94HYTeS4e2LERlKmJe')
             .then((result) => {
                 console.log(result.text);
+                alert('Message Successfully Send.');
             }, (error) => {
                 console.log(error.text);
             });
