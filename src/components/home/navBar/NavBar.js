@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import ParticlesBg from 'particles-bg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
+import logo from '../../../images/logo.png';
 
 const NavBar = () => {
     // "color"
@@ -20,13 +21,16 @@ const NavBar = () => {
     // "custom"
     return (
         <div className="container">
-            <ParticlesBg type="tadpole" bg={true} />
+            <ParticlesBg type="polygon" bg={true} />
             <Navbar bg="transparent" expand="lg">
                 <Link to="/">
-                    <Navbar.Brand><h2 style={{ fontVariant: "small-caps" }} className="mt-3 text-info font-weight-bolder">
+                    <Navbar.Brand>
+                        <img className="img-fluid" style={{ height: "80px" }} src={logo} alt="logo" />
+                        {/* <h2 style={{ fontVariant: "small-caps" }} className="mt-3 text-info font-weight-bolder">
                         <FontAwesomeIcon style={{color:"#FA6957"}} icon={faCode} />
                         Jubayer Rahman
-                        </h2></Navbar.Brand>
+                        </h2> */}
+                    </Navbar.Brand>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
