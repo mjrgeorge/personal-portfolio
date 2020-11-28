@@ -39,7 +39,7 @@ function App() {
         <Route path="/blogs">
           <Blogs />
         </Route>
-        <Route path="/about">
+        <Route path="/skills">
           <About />
         </Route>
         <Route path="*">
