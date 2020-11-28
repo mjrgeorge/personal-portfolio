@@ -8,14 +8,12 @@
     font-family: "Poppins", sans-serif;
   }
 
-  .zoom {
-    border: none !important;
-  }
-  .zoom img{
-    height: 300px;
+  .card {
+    width: 18rem;
     transition:.5s;
   }
   
-  .zoom:hover img{
+  .card:hover{
     transform: scale(1.1);
+    transition:.5s;
   }
