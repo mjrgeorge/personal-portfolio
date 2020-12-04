@@ -38,7 +38,7 @@ const Resume = () => {
                 <h3 className="text-info">Programming Skills</h3>
                 <div className="pl-4">
                     <h4>⮚ Good At :</h4>
-                    <p className="text-muted text-justify">HTML, CSS, SASS, Bootstrap, JavaScript, ES6, React.js, React-router, React-bootstrap, Material-UI, Firebase, Netlify. </p>
+                    <p className="text-muted text-justify">HTML, CSS3, SASS, Bootstrap, JavaScript, ES6, React.js, React-router, React-bootstrap, Material-UI, Firebase, Netlify. </p>
                     <h4>⮚ Comfortable :</h4>
                     <p className="text-muted"> NodeJS, Express JS, MongoDB, Heroku</p>
                     <h4>⮚ Tools :</h4>
@@ -48,10 +48,10 @@ const Resume = () => {
             <div className="shadow-lg px-5 py-3 my-3">
                 <h3 className="text-info">Projects</h3>
                 <div className="shadow p-4 my-3">
-                    <h4>􀀀 Apartment Hunt (A website for an apartment rental service )</h4>
+                    <h4>􀀀 Apartment Hunt (A website for an apartment rental service)</h4>
                     <p className="text-muted text-justify">Responsive MERN Stack project with firebase authentication, admin authentication, persistent login and dashboard functionality for customer and admin. Client have ability to request booking for apartment, check status of requested booking from client dashboard. Only admin can update the client requested booking status from pending to on going to done , add new apartment/house with image, all the apartment details and add new admin. Sign in is required to request booking for any apartment or to view client dashboard with services status.</p>
                     <h5>Here I used</h5>
-                    <p className="text-muted text-justify">React JS, Firebase Authentication, React Router, Private Router, React Hook Form, Redux, React Redux, redux-devtools-extension, redux-thunk, React Context API,React Hook,Firebase Hosting, Session Storage, React Spinners, Bootstrap, SCSS, FontAwesome, Node JS, Express JS, Express file upload, Mongodb, Heroku, Cors, Body parser, Dotenv, nodemon.</p>
+                    <p className="text-muted text-justify">CSS3, Bootstrap, JavaScript, React JS, Firebase Authentication, React Router, Private Router, React Hook Form, Redux, React Redux, redux-devtools-extension, redux-thunk, React Context API,React Hook,Firebase Hosting, Session Storage, React Spinners, Bootstrap, SCSS3, FontAwesome, Node JS, Express JS, Express file upload, Mongodb, Heroku, Cors, Body parser, Dotenv, nodemon.</p>
                     <h5>You can visit repositories :</h5>
                     <div>
                         <a className="btn btn-outline-info m-1" href="https://apartment-hunt-8e374.web.app/" target="_blank">Live Preview</a>
@@ -63,7 +63,7 @@ const Resume = () => {
                     <h4>􀀀 Creative Agency (A website for a software agency)</h4>
                     <p className="text-muted text-justify">MERN project. This is an agency website where users can find many services and can order any of the services. Has user authentication. Users can login and see their ordered services. Users can give reviews about their ordered services.Admin can manage ordered services. Can add New services.</p>
                     <h5>Here I used</h5>
-                    <p className="text-muted text-justify">React JS, Firebase Authentication, React Router, Private Router, React Hook Form, React Context API,React Hook,Firebase Hosting, Bootstrap, FontAwesome, Node JS, Express JS, Express file upload, Mongodb, Heroku, Cors, Body parser, Dotenv, nodemon.</p>
+                    <p className="text-muted text-justify">CSS3, Bootstrap, JavaScript, React JS, Firebase Authentication, React Router, Private Router, React Hook Form, React Context API,React Hook,Firebase Hosting, Bootstrap, FontAwesome, Node JS, Express JS, Express file upload, Mongodb, Heroku, Cors, Body parser, Dotenv, nodemon.</p>
                     <h5>You can visit repositories :</h5>
                     <div>
                         <a className="btn btn-outline-info m-1" href="https://creative-agency-client.web.app/" target="_blank">Live Preview</a>
@@ -75,7 +75,7 @@ const Resume = () => {
                     <h4>􀀀 Volunteer Network (A volunteer management website)</h4>
                     <p className="text-muted text-justify">Has user authentication. Users can login and see their ordered services. Users can give reviews about their ordered services. Admin can manage ordered services. Can add New services.</p>
                     <h5>Here I used</h5>
-                    <p className="text-muted text-justify">React JS, Firebase Authentication, React Router, Private Router, React Hook Form, React Context API,React Hook,Firebase Hosting, Bootstrap, FontAwesome, Node JS, Express JS, Express file upload, Mongodb, Heroku, Cors, Body parser, Dotenv, nodemon.</p>
+                    <p className="text-muted text-justify">CSS3, Bootstrap, JavaScript, React JS, Firebase Authentication, React Router, Private Router, React Hook Form, React Context API,React Hook,Firebase Hosting, Bootstrap, FontAwesome, Node JS, Express JS, Express file upload, Mongodb, Heroku, Cors, Body parser, Dotenv, nodemon.</p>
                     <h5>You can visit repositories :</h5>
                     <div>
                         <a className="btn btn-outline-info m-1" href="https://volunteer-network-22cfc.web.app/" target="_blank">Live Preview</a>
@@ -84,10 +84,10 @@ const Resume = () => {
                     </div>
                 </div>
                 <div className="shadow p-4 my-3">
-                    <h4>􀀀 Red Onion (Dynamic website for online food delivery system )</h4>
+                    <h4>􀀀 Red Onion (Dynamic website for online food delivery system)</h4>
                     <p className="text-muted text-justify">Authenticated users can order foods. U Automated calculation and functionalities are added for the cart. Google Location API use testing purposes only.</p>
                     <h5>Here I used</h5>
-                    <p className="text-muted text-justify">React JS, Firebase Authentication, React Router, Private Router, React Hook Form, React Context API,React Hook,Firebase Hosting, Bootstrap, FontAwesome.</p>
+                    <p className="text-muted text-justify">CSS3, Bootstrap, JavaScript, React JS, Firebase Authentication, React Router, Private Router, React Hook Form, React Context API,React Hook,Firebase Hosting, Bootstrap, FontAwesome.</p>
                     <h5>You can visit repositories :</h5>
                     <div>
                         <a className="btn btn-outline-info m-1" href="https://red-onion-restaurant-2611b.web.app/" target="_blank">Live Preview</a>
@@ -98,14 +98,25 @@ const Resume = () => {
             <div className="shadow-lg px-5 py-3 my-3">
                 <h3 className="text-info">Team Projects</h3>
                 <div className="shadow p-4 my-3">
-                    <h4>􀀀 Athena Design (Responsive Design service provider website )</h4>
-                    <p className="text-muted text-justify">Responsive Design service provider application with reactjs, bootstrap and css3. Client can check what services are available. Client also can check the price of the dedicated designer team. The application is completely responsive so client will have better user experience in smart devices.</p>
+                    <h4>􀀀 Athena Design (Responsive Design service provider website)</h4>
+                    <p className="text-muted text-justify">Responsive Design service provider application with react.js, bootstrap and CSS3. Client can check what services are available. Client also can check the price of the dedicated designer team. The application is completely responsive so client will have better user experience in smart devices.</p>
                     <h5>Here I used</h5>
                     <p className="text-muted text-justify">CSS3, Bootstrap, React JS</p>
                     <h5>You can visit repositories :</h5>
                     <div>
                         <a className="btn btn-outline-info m-1" href="https://athena-design-react.netlify.app/" target="_blank">Live Preview</a>
                         <a className="btn btn-outline-info m-1" href="https://github.com/faisalcep/athena-design" target="_blank">Client Side</a>
+                    </div>
+                </div>
+                <div className="shadow p-4 my-3">
+                    <h4>􀀀 Redux-Contact-Book </h4>
+                    <p className="text-muted text-justify">This Redux Contact Book Website. User can see their contact information in there, such as name, phone , email Users can add new contacts. They can update their contact information. They can also delete unnecessary contact from the contact book.</p>
+                    <h5>Here I used</h5>
+                    <p className="text-muted text-justify">CSS3, Bootstrap, JavaScript, React JS, React Router, Private Router, Redux, Netlify.</p>
+                    <h5>You can visit repositories :</h5>
+                    <div>
+                        <a className="btn btn-outline-info m-1" href="https://admiring-tereshkova-839887.netlify.app/" target="_blank">Live Preview</a>
+                        <a className="btn btn-outline-info m-1" href="https://github.com/mjrgeorge/redux-contact-book.git" target="_blank">Client Side</a>
                     </div>
                 </div>
             </div>

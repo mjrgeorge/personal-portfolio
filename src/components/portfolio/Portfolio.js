@@ -11,6 +11,8 @@ import project9 from '../../images/projects/project9.png';
 import project10 from '../../images/projects/project10.png';
 import project11 from '../../images/projects/project11.png';
 import project12 from '../../images/projects/project12.png';
+import project13 from '../../images/projects/project13.png';
+import project14 from '../../images/projects/project14.png';
 
 const Portfolio = () => {
     return (
@@ -28,10 +30,12 @@ const Portfolio = () => {
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#JavaScript</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Node</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Express</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Mongodb</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Firebase</span>
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
@@ -47,10 +51,12 @@ const Portfolio = () => {
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#JavaScript</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Node</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Express</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Mongodb</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Firebase</span>
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
@@ -66,10 +72,12 @@ const Portfolio = () => {
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#JavaScript</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Node</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Express</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Mongodb</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Firebase</span>
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
@@ -85,7 +93,9 @@ const Portfolio = () => {
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#JavaScript</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Firebase</span>
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
@@ -101,7 +111,9 @@ const Portfolio = () => {
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#JavaScript</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Netlify</span>
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
@@ -117,6 +129,7 @@ const Portfolio = () => {
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#JavaScript</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Firebase</span>
                         </div>
@@ -217,6 +230,42 @@ const Portfolio = () => {
                     <div className="card-footer d-flex justify-content-between">
                         <a href="https://mjrgeorge.github.io/panda-commerce/" className="card-link">Live</a>
                         <a href="https://github.com/mjrgeorge/panda-commerce" className="card-link">Github</a>
+                    </div>
+                </div>
+                <div className="card mx-auto mt-5">
+                    <img src={project13} className="card-img-top" alt="work" />
+                    <div className="card-body">
+                        <h5 className="card-title">Whats App Clone</h5>
+                        <div className="d-flex flex-wrap">
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#JavaScript</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Node</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Express</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Mongodb</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="card mx-auto mt-5">
+                    <img src={project14} className="card-img-top" alt="work" />
+                    <div className="card-body">
+                        <h5 className="card-title">Redux Contact Book</h5>
+                        <div className="d-flex flex-wrap">
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#HTML</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#CSS</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Bootstrap</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#JavaScript</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#React</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Redux</span>
+                            <span className="bg-dark px-2 m-2 text-white rounded-pill">#Netlify</span>
+                        </div>
+                    </div>
+                    <div className="card-footer d-flex justify-content-between">
+                        <a href="https://admiring-tereshkova-839887.netlify.app/" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/redux-contact-book" className="card-link">Github</a>
                     </div>
                 </div>
             </div>
