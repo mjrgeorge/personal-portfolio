@@ -39,8 +39,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://apartment-hunt-8e374.web.app/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/apartment-hunt" className="card-link">Github</a>
+                        <a href="https://apartment-hunt-8e374.web.app/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/apartment-hunt" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -60,8 +60,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://creative-agency-client.web.app/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/creative-agency-client" className="card-link">Github</a>
+                        <a href="https://creative-agency-client.web.app/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/creative-agency-client" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -81,8 +81,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://volunteer-network-22cfc.web.app/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/volunteer-network-client" className="card-link">Github</a>
+                        <a href="https://volunteer-network-22cfc.web.app/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/volunteer-network-client" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -99,8 +99,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://red-onion-restaurant-2611b.web.app/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/red-onion-restaurant" className="card-link">Github</a>
+                        <a href="https://red-onion-restaurant-2611b.web.app/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/red-onion-restaurant" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -117,8 +117,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://athena-design-react.netlify.app/" className="card-link">Live</a>
-                        <a href="https://github.com/faisalcep/athena-design" className="card-link">Github</a>
+                        <a href="https://athena-design-react.netlify.app/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/faisalcep/athena-design" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -135,8 +135,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://travel-guru-85690.web.app/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/travel-guru" className="card-link">Github</a>
+                        <a href="https://travel-guru-85690.web.app/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/travel-guru" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -151,8 +151,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://mjrgeorge.github.io/hard-rock/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/hard-rock" className="card-link">Github</a>
+                        <a href="https://mjrgeorge.github.io/hard-rock/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/hard-rock" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -167,8 +167,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://mjrgeorge.github.io/shopping-cart/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/shopping-cart" className="card-link">Github</a>
+                        <a href="https://mjrgeorge.github.io/shopping-cart/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/shopping-cart" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -183,8 +183,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://mjrgeorge.github.io/george_bank/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/george_bank" className="card-link">Github</a>
+                        <a href="https://mjrgeorge.github.io/george_bank/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/george_bank" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -198,8 +198,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://mjrgeorge.github.io/leader_board_website/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/leader_board_website" className="card-link">Github</a>
+                        <a href="https://mjrgeorge.github.io/leader_board_website/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/leader_board_website" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -213,8 +213,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://mjrgeorge.github.io/hot_gadgets_website/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/hot_gadgets_website" className="card-link">Github</a>
+                        <a href="https://mjrgeorge.github.io/hot_gadgets_website/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/hot_gadgets_website" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -228,8 +228,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://mjrgeorge.github.io/panda-commerce/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/panda-commerce" className="card-link">Github</a>
+                        <a href="https://mjrgeorge.github.io/panda-commerce/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/panda-commerce" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
                 <div className="card mx-auto mt-5">
@@ -248,6 +248,10 @@ const Portfolio = () => {
                             <span className="bg-dark px-2 m-2 text-white rounded-pill">#Firebase</span>
                         </div>
                     </div>
+                    <div className="card-footer d-flex justify-content-between">
+                        <a href="https://whatsapp-clone-68a0d.web.app/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/whatsapp-clone-client" target="_blank" className="card-link">Github</a>
+                    </div>
                 </div>
                 <div className="card mx-auto mt-5">
                     <img src={project14} className="card-img-top" alt="work" />
@@ -264,8 +268,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className="card-footer d-flex justify-content-between">
-                        <a href="https://admiring-tereshkova-839887.netlify.app/" className="card-link">Live</a>
-                        <a href="https://github.com/mjrgeorge/redux-contact-book" className="card-link">Github</a>
+                        <a href="https://admiring-tereshkova-839887.netlify.app/" target="_blank" className="card-link">Live</a>
+                        <a href="https://github.com/mjrgeorge/redux-contact-book" target="_blank" className="card-link">Github</a>
                     </div>
                 </div>
             </div>
