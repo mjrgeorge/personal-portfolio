@@ -1,5 +1,5 @@
 import React from 'react';
-import jubayerRahman from '../../../images/JubayerRahman.png';
+import jubayerRahman from '../../../images/jubayer1.png';
 import Typical from 'react-typical';
 import { Link } from 'react-router-dom';
 

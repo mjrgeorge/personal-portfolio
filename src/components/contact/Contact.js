@@ -2,6 +2,7 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeOpen, faPhoneAlt, faSearchLocation } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 export default function Contact() {
 
@@ -21,21 +22,21 @@ export default function Contact() {
     return (
         <div className="container">
             <div className="row shadow-lg mb-4">
-                <div className="col-lg-6 text-danger d-flex justify-content-center align-items-center flex-column">
-                    <div className="text-center m-3">
-                        <h5><FontAwesomeIcon icon={faPhoneAlt} /></h5>
+            <div className="col-lg-6 shadow-lg text-info d-flex justify-content-center align-items-center flex-column">
+                    <div className="text-center m-2">
+                        <h3><FontAwesomeIcon icon={faPhoneAlt} /></h3>
                         <h5>Call Me On</h5>
-                        <h5><a className="ml-3" href="tel:+8801841503316">+8801841503316</a></h5>
+                        <h5><a className="text-decoration-none text-muted" href="tel:+8801841503316">+8801841503316</a></h5>
                     </div>
-                    <div className="text-center m-3">
-                        <h5><FontAwesomeIcon icon={faEnvelopeOpen} /></h5>
+                    <div className="text-center m-2">
+                        <h3><FontAwesomeIcon icon={faEnvelopeOpen} /></h3>
                         <h5>Email</h5>
-                        <h5><a href="mailto:mjrgeorge@gmail.com">mjrgeorge@gmail.com</a></h5>
+                        <h5><a className="text-decoration-none text-muted" href="mailto:mjrgeorge@gmail.com">mjrgeorge@gmail.com</a></h5>
                     </div>
-                    <div className="text-center m-3">
-                        <h5><FontAwesomeIcon icon={faSearchLocation} /></h5>
+                    <div className="text-center m-2">
+                        <h3><FontAwesomeIcon icon={faSearchLocation} /></h3>
                         <h5>Location</h5>
-                        <h5><a href="#">Dhaka, Bangladesh</a></h5>
+                        <h5><a className="text-decoration-none text-muted" href="/contact">Dhaka, Bangladesh</a></h5>
                     </div>
                 </div>
                 <div className="col-lg-6">

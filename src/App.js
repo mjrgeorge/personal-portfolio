@@ -12,9 +12,9 @@ import Contact from './components/contact/Contact';
 import Portfolio from './components/portfolio/Portfolio';
 import Cv from './components/resume/Resume';
 import Blogs from './components/blogs/Blogs';
-import About from './components/about/About';
 import NavBar from './components/home/navBar/NavBar';
 import Footer from './components/home/footer/Footer';
+import About from './components/about/About';
 
 function App() {
   return (

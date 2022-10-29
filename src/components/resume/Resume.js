@@ -1,5 +1,5 @@
 import React from 'react';
-import jubayer from '../../images/jubayer.png';
+import jubayer from '../../images/jubayer.jpg';
 
 const Resume = () => {
     return (
@@ -35,6 +35,12 @@ const Resume = () => {
                 <p className="text-muted text-justify pl-4">A self-motivated and tech enthusiast MERN stack web developer with a deep interest in JavaScript. To gain confidence and excellence using my potential in the field of “Web Development”, and express my innovative creative skills for self and company growth.</p>
             </div>
             <div className="shadow-lg px-5 py-3 my-3">
+                <h3 className="text-info">Experience</h3>
+                <h5 className="pl-4">Front End Developer</h5>
+                <h6 className="pl-4">eSchool Journey Pvt Ltd</h6>
+                <p className="text-muted pl-4">March 2021 - Present</p>
+            </div>
+            <div className="shadow-lg px-5 py-3 my-3">
                 <h3 className="text-info">Programming Skills</h3>
                 <div className="pl-4">
                     <h4>⮚ Good At :</h4>
@@ -44,12 +50,6 @@ const Resume = () => {
                     <h4>⮚ Tools :</h4>
                     <p className="text-muted">GitHub, Chrome Dev Tools, VS Codes </p>
                 </div>
-            </div>
-            <div className="shadow-lg px-5 py-3 my-3">
-                <h3 className="text-info">Experience</h3>
-                <h5 className="pl-4">Front End Developer</h5>
-                <h6 className="pl-4">eSchool Journey Pvt Ltd</h6>
-                <p className="text-muted pl-4">March 2021-Present</p>
             </div>
             <div className="shadow-lg px-5 py-3 my-3">
                 <h3 className="text-info">Projects</h3>

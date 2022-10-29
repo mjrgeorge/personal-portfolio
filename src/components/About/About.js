@@ -1,9 +1,9 @@
-import React from 'react';
-import Skills from '../skills/Skills';
+import React from 'react'
+import Skills from './Skills'
 
 const About = () => {
-    return (
-        <section className="container mb-4 p-4 shadow-lg">
+  return (
+    <section className="container mb-4 p-4 shadow-lg">
             <h2 className="display-4 text-center text-dark">Skills</h2>
             <article className="row">
                 <div className="col-lg-6 py-3 px-5">
@@ -14,7 +14,7 @@ const About = () => {
                 </div>
             </article>
         </section>
-    );
-};
+  )
+}
 
-export default About;
+export default About

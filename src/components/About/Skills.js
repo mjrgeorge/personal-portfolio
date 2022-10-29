@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import html from '../../images/icons/html.png';
 import css from '../../images/icons/css.png';
 import sass from '../../images/icons/sass.png';
@@ -19,8 +19,8 @@ import redux from '../../images/icons/redux.png';
 import npm from '../../images/icons/npm.png';
 
 const Skills = () => {
-    return (
-        <div className="text-center">
+  return (
+    <div className="text-center">
             <div className="row d-flex justify-content-center align-items-center">
                 <div>
                     <img className="mx-3 my-2" style={{ width: '50px' }} src={html} alt="" />
@@ -96,7 +96,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
-    );
-};
+  )
+}
 
-export default Skills;
+export default Skills
