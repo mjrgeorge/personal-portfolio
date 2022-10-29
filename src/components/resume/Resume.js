@@ -46,6 +46,12 @@ const Resume = () => {
                 </div>
             </div>
             <div className="shadow-lg px-5 py-3 my-3">
+                <h3 className="text-info">Experience</h3>
+                <h5 className="pl-4">Front End Developer</h5>
+                <h6 className="pl-4">eSchool Journey Pvt Ltd</h6>
+                <p className="text-muted pl-4">March 2021-Present</p>
+            </div>
+            <div className="shadow-lg px-5 py-3 my-3">
                 <h3 className="text-info">Projects</h3>
                 <div className="shadow p-4 my-3">
                     <h4>􀀀 Apartment Hunt (A website for an apartment rental service)</h4>
@@ -119,12 +125,6 @@ const Resume = () => {
                         <a className="btn btn-outline-info m-1" href="https://github.com/mjrgeorge/redux-contact-book.git" target="_blank">Client Side</a>
                     </div>
                 </div>
-            </div>
-            <div className="shadow-lg px-5 py-3 my-3">
-                <h3 className="text-info">Course</h3>
-                <h5 className="pl-4">Complete Web Development Course (Online - Black Belt)</h5>
-                <h6 className="pl-4">Institute Name: Programming Hero</h6>
-                <p className="text-muted pl-4">June 2020 - December 2020</p>
             </div>
             <div className="shadow-lg px-5 py-3 my-3">
                 <h3 className="text-info">Languages</h3>
